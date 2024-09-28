@@ -1,5 +1,5 @@
 /* Aisha Abdulhafiz 301331337 9/27/24 */
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Intro from "./components/Intro/intro";
 import Skills from "./components/Skills/skills";
@@ -13,6 +13,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
+          <Route path="/" element={<Intro />} />
           <Route path="/intro" element={<Intro />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/works" element={<Works />} />
@@ -25,4 +26,3 @@ function App() {
 }
 
 export default App;
-

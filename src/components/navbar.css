@@ -44,8 +44,8 @@
     background-color: rgb(214, 214, 214);
 }
 
-.active{
+.active {
     color: rgb(255, 55, 0);
     padding-bottom: 0.5rem;
-    border-bottom:3px solid rgb(255, 55, 0) ;
+    border-bottom: 3px solid rgb(255, 55, 0);
 }
