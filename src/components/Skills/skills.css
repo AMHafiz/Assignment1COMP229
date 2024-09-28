@@ -1,0 +1,54 @@
+/* Aisha Abdulhafiz 301331337 9/27/24 */
+.skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+} 
+
+.skillBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(20,20,20);
+}
+
+.skillBarImg {
+    width: 100px;
+    height: 100px; 
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillInfo{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+
+}
+
+.skillBartext{
+    font-size: 1rem;
+    font-weight: 200;
+}

@@ -1,0 +1,73 @@
+/* Aisha Abdulhafiz 301331337 9/27/24 */
+#services {
+    margin: 0 auto;
+    min-height: calc(100vh - 6rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 70px;
+}
+
+#servicesTitle{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.servicesPage {
+    text-align: center; 
+    padding: 2rem; 
+}
+
+.servicesList {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center; 
+}
+
+.serviceItem {
+    margin: 1rem; 
+    max-width: 200px; 
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.serviceImg {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 0.5rem; 
+}
+
+h1 {
+    margin-bottom: 1.5rem; 
+}
+
+h2 {
+    margin: 0.5rem 0; 
+}
+
+.fancyBreak {
+    border: none;
+    height: 2px; 
+    background: linear-gradient(to right, #4a90e2, #50e3c2); 
+    margin: 2rem 0; 
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disclaimer {
+    max-width: 60rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem; 
+    color: #555; 
+}

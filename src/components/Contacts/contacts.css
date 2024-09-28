@@ -1,0 +1,87 @@
+/* Aisha Abdulhafiz 301331337 9/27/24 */
+#contactPage {
+    margin: 0 auto;
+    min-height: calc(10vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactPagetitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.clientImg{
+    object-fit: cover;
+    min-width: 9rem;
+    margin: auto;
+    padding: 1rem;
+    width: 150px; 
+    height: 150px;
+}
+
+.contactDecs{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: medium;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submitBtn:hover{
+    background: rgb(208, 200, 200);
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+}
+
+.footer{
+    width: 100vw;
+    height: 4rem;
+    background: rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+}
