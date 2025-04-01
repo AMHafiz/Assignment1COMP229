@@ -10,7 +10,7 @@ const skills = () => {
     return (
         <section id='skills'>
            <span className='skillTitle'>About Me</span>
-           <span className='skillInfo'>My name is Aisha Abdulhafiz. I'm a web design and computer science student passionate about creating visually appealing and functional digital experiences. I have hands-on experience with front-end development, focusing on clean code, responsive design, and user-centered interfaces. I'm eager to apply my technical skills and creativity to real-world projects.<a href="Resume.docx.pdf" target="_blank"><br/><br/>Download My Resume</a></span>
+           <span className='skillInfo'>My name is Aisha Abdulhafiz. I'm a web design and computer science student passionate about creating visually appealing and functional digital experiences. I have hands-on experience with front-end development, focusing on clean code, responsive design, and user-centered interfaces. I'm eager to apply my technical skills and creativity to real-world projects.<a href="Resume_AishaAbdulhafiz_2024.docx.pdf" target="_blank"><br/><br/>Download My Resume</a></span>
             <div className='skillBars'>
                 <div className='skillBar'>
                     <img src={two} className='skillBarImg' alt="photo"/>
